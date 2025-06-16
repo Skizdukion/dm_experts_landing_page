@@ -20,9 +20,9 @@ export default function PricingSignup() {
           {/* Pricing Info */}
           <div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Only $149/m -<br>
-              1 Seat included<br>
-              Only $149/m<br>
+              Only $149/m -<br />
+              1 Seat included<br />
+              Only $149/m<br />
               1 Seat included
             </h2>
 

@@ -1,4 +1,7 @@
 import Header from "@/components/sections/header";
+import Hero from "@/components/sections/hero";
+import ProblemStatement from "@/components/sections/problem-statement";
+import AccountConnection from "@/components/sections/account-connection";
 import TargetAudience from "@/components/sections/target-audience";
 import MultiAccountCallout from "@/components/sections/multi-account-callout";
 import AccountsDemo from "@/components/sections/accounts-demo";
@@ -13,6 +16,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[hsl(207,100%,95%)] to-[hsl(207,93%,92%)]">
       <Header />
+      <Hero />
+      <ProblemStatement />
+      <AccountConnection />
       <TargetAudience />
       <MultiAccountCallout />
       <AccountsDemo />
